@@ -1,0 +1,12 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage=digitalSignature,nonRepudiation,keyEncipherment,dataEncipherment
+extendedKeyUsage=serverAuth
+crlDistributionPoints=URI:http://crl.fakedomain.com/fakedomain.com.crl
+subjectAltName=@alt_names
+
+[alt_names]
+DNS.1=fake.fqdn.com
+DNS.2=fake
+DNS.3=localhost
+IP.4=127.0.0.1
